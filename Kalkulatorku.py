@@ -10,17 +10,18 @@ print "\n"
 program_berjalan = True
 
 while program_berjalan:
-       
+    awal = ":"
     print "Tulis + untuk penjumlahan"
     print "Tulis - untuk pengurangan"
     print "Tulis * untuk perkalian"
     print "Tulis / untuk pembagian"
     print "Tulis x untuk keluar"  
+    print "\n"
     
     
    
 # Menu pilihan.
-    pilihan = raw_input()   
+    pilihan = raw_input(awal)   
     
     if pilihan == "+":
         angka_pertama = raw_input("Masukkan angka pertama: ")
